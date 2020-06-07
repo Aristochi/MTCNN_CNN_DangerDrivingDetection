@@ -1,6 +1,8 @@
 本项目是用于判断是否闭眼或者张开嘴哈欠和吸烟打电话等手势行为，
 功能涵盖7类情绪识别，眨眼判断，哈欠判断，吸烟，打电话等，
 达到危险驾驶检测的功能。
+项目描述可以看https://blog.csdn.net/Aristochi/article/details/105655810
+有问题可以私信
 ```
 The project was designed to determine gestures such as closing eyes or yawning and smoking or talking on the phone.
 The functions cover 7 categories of emotion recognition, blinking judgment, yawning judgment, smoking, telephone, etc. to achieve the function of dangerous driving detection.
@@ -15,7 +17,6 @@ Mask data set
 Fer2013 Emoji Data Set
 ```
 眨眼数据集http://parnec.nuaa.edu.cn/xtan/data/ClosedEyeDatabases.html
-具体描述可以看https://blog.csdn.net/Aristochi/article/details/105655810
 数据集
 链接：https://pan.baidu.com/s/1FpTGvU13GWkgaz5_sVh9YA 
 提取码：oafy
@@ -42,3 +43,5 @@ PERCLOS fatigue index judgment
 Port the project to raspberry pie
 Thanks for https://github.com/ipazc/mtcnn/tree/master/mtcnn MTCNN module
 感谢https://github.com/ipazc/mtcnn/tree/master/mtcnn的MTCNN模块
+```
+如果有问题可以发邮箱aristochi@qq.com。
