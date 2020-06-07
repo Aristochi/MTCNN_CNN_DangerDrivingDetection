@@ -7,8 +7,6 @@ import cv2
 from keras.applications.imagenet_utils import preprocess_input
 from keras.engine.saving import load_model
 from keras.preprocessing.image import img_to_array
-
-from mobileNet import MobileNet
 from mtcnn import MTCNN
 from math import *
 detector = MTCNN()
