@@ -72,8 +72,8 @@ print(lb)
 trainY = lb.fit_transform(trainY)
 testY = lb.fit_transform(testY)
 
-trainY = to_categorical(trainY)
-testY = to_categorical(testY)
+#trainY = to_categorical(trainY)
+#testY = to_categorical(testY)
 # construct the image generator for data augmentation
 aug = ImageDataGenerator(rotation_range=25, width_shift_range=0.1,
                          height_shift_range=0.1, shear_range=0.2, zoom_range=0.2,
